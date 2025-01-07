@@ -26,14 +26,10 @@ const NAVIGATION: Navigation = [
 ];
 
 const BRANDING = {
-  title: 'My Toolpad Core Next.js App',
+  title: 'Consumer Life Management',
 };
 
-
-
 export default function RootLayout(props: { children: React.ReactNode }) {
-  
-
   return (
     <html lang="en" data-toolpad-color-scheme="light" suppressHydrationWarning>
       <body>
