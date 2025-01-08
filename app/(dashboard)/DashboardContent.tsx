@@ -14,29 +14,30 @@ import ChartUserByCountry from '../components/ChartUserByCountry';
 
 const data: StatCardProps[] = [
   {
-    title: 'Users',
-    value: '14k',
-    interval: 'Last 30 days',
+    title: 'Products',
+    value: '400',
+    interval: 'Last 6 months',
     trend: 'up',
     data: [
-      200, 24, 220, 260, 240, 380, 100, 240, 280, 240, 300, 340, 320, 360, 340, 380, 360, 400, 380,
-      420, 400, 640, 340, 460, 440, 480, 460, 600, 880, 920,
+      200, 24, 220, 260, 240, 380, 100, 240, 280, 240, 
+      300, 340, 320, 360, 340, 380, 360, 400, 380, 420, 
+      400, 640, 340, 460, 440, 480, 460, 600, 880, 920,
     ],
   },
   {
-    title: 'Conversions',
-    value: '325',
-    interval: 'Last 30 days',
+    title: 'Events',
+    value: '112',
+    interval: 'Last 6 months',
     trend: 'down',
     data: [
-      1640, 1250, 970, 1130, 1050, 900, 720, 1080, 900, 450, 920, 820, 840, 600, 820, 780, 800, 760,
-      380, 740, 660, 620, 840, 500, 520, 480, 400, 360, 300, 220,
+      16, 12, 7, 11, 10, 9, 7, 8, 9, 4, 9, 8, 4, 6, 8, 0, 8, 7,
+      3, 7, 6, 0, 4, 0, 5, 8, 4, 6, 3, 2,
     ],
   },
   {
-    title: 'Event count',
+    title: 'Charged',
     value: '200k',
-    interval: 'Last 30 days',
+    interval: 'Last 6 months',
     trend: 'neutral',
     data: [
       500, 400, 510, 530, 520, 600, 530, 520, 510, 730, 520, 510, 530, 620, 510, 530, 520, 410, 530,

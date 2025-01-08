@@ -31,7 +31,7 @@ const NAVIGATION: Navigation = [
   },
   {
     segment: 'settings',
-    title: 'Settgins',
+    title: 'Settings',
     icon: <TuneIcon />,
     children: [
       {
