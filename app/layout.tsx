@@ -3,6 +3,12 @@ import { AppProvider } from '@toolpad/core/nextjs';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import TuneIcon from '@mui/icons-material/Tune';
+import InventoryIcon from '@mui/icons-material/Inventory';
+import PeopleIcon from '@mui/icons-material/People';
+import StoreIcon from '@mui/icons-material/Store';
+import BarChartIcon from '@mui/icons-material/BarChart';
+import EventIcon from '@mui/icons-material/Event';
 import LinearProgress from '@mui/material/LinearProgress'
 import type { Navigation } from '@toolpad/core/AppProvider';
 
@@ -19,9 +25,41 @@ const NAVIGATION: Navigation = [
     icon: <DashboardIcon />,
   },
   {
-    segment: 'orders',
-    title: 'Orders',
+    segment: 'shopppingEvents',
+    title: 'Shopping Events',
     icon: <ShoppingCartIcon />,
+  },
+  {
+    segment: 'settings',
+    title: 'Settgins',
+    icon: <TuneIcon />,
+    children: [
+      {
+        segment: 'products',
+        title: 'Products',
+        icon: <InventoryIcon />,
+      },
+      {
+        segment: 'users',
+        title: 'Users',
+        icon: <PeopleIcon />,
+      },
+      {
+        segment: 'stores',
+        title: 'Stores',
+        icon: <StoreIcon />,
+      },
+    ],
+  },
+  {
+    segment: 'usageHistory',
+    title: 'Usage History',
+    icon: <BarChartIcon />,
+  },
+  {
+    segment: 'register',
+    title: 'Register New Event',
+    icon: <EventIcon />,
   },
 ];
 
